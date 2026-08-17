@@ -11,3 +11,7 @@ console.log("Hello " + name + ",");
 console.log("I dislike you as much " + adjective + " on a " + noun + ".");
 console.log("Goodbye " + name + ".");
 
+
+makeCard();
+
+makeCard();
