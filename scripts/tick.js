@@ -1,0 +1,13 @@
+let count = 0;
+let speed = 1000;
+
+function tick() {
+  count = count + 1;
+  console.log("Tick " + count);
+  if (count === 10) {
+    clearInterval(timer);
+    console.log("The counter rests.");
+  }
+}
+
+let timer = setInterval(tick, speed);
